@@ -1,0 +1,155 @@
+body{
+    background-image:url("img/back_land.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo img{
+    border-radius: 10%;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.2;
+    font-size: 16px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.profile-photo{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+main{
+    display: flex;
+    
+        
+}
+
+.colum1{
+    display:flex;
+    justify-content: left;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: 125px;
+    margin-top: 50px;
+    max-width: 400px;
+}
+
+.colum1 h2{
+    text-align: left;
+}
+
+.colum1 h4{
+    text-align: left;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+.podval1{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 125px;
+}
+
+.podval1 img{
+    border-top-right-radius:50px ;
+    border-bottom-right-radius:50px ;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+    line-height: 1.2;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0px;
+    line-height: 1.2;
+    font-size: 12px ;
+}
+
+.colum2{
+    display:flex;
+    justify-content: right;
+    flex-direction: column;
+    line-height: 1.2;
+    margin-left: 865px;
+    margin-top: 50px;
+}
+
+.colum2 a{
+    text-align: center;
+    color:  #3498DB;
+}
+
+.colum2 a:hover{
+    color: #b57edc; ;
+}
+
+.colum1 a{
+    color:  #3498DB;
+}
+
+.colum1 a:hover{
+    color: #b57edc; ;
+}
+
+.podval1 a{
+    color:  #3498DB;
+}
+
+.podval1 a:hover{
+    color: #b57edc; ;
+}
